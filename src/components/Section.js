@@ -10,8 +10,8 @@ const Section = (props) => {
         <p className="type">{props.type}</p>
         <div className="baseline-prog">
           <span className="duration">{props.duration}</span>
-          {props.direct && <span className="red">° Direct</span>}
-          {props.isUnseen && <span className="red">° Inédit</span>}
+          {props.direct && <span className="red">• Direct</span>}
+          {props.isUnseen && <span className="red">• Inédit</span>}
         </div>
       </div>
     </section>

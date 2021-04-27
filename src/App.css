@@ -46,21 +46,22 @@ header img {
 
 h3 {
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .type {
   font-size: 12px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 
 .duration {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .red {
   color: red;
+  font-size: 12px;
   font-weight: bold;
   margin: 0 10px;
 }
