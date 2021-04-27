@@ -1,1 +1,72 @@
 /* Other rules */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.prog {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 120px;
+}
+
+.time {
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.prog img {
+  width: 64px;
+  height: 90px;
+  margin-right: 12px;
+}
+
+.prog-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 90px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.type {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.duration {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+hr {
+  border: 1px solid #e5e5e5;
+  width: 500px;
+  margin-bottom: 20px;
+}
